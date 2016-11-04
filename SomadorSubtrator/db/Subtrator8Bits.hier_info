@@ -1,0 +1,236 @@
+|Subtrator8Bits
+S0 <= SubtratorCompleto:inst16.S
+Dado[0] => SubtratorCompleto:inst16.Y
+Dado[1] => SubtratorCompleto:inst15.Y
+Dado[2] => SubtratorCompleto:inst14.Y
+Dado[3] => SubtratorCompleto:inst13.Y
+Dado[4] => SubtratorCompleto:inst12.Y
+Dado[5] => SubtratorCompleto:inst11.Y
+Dado[6] => SubtratorCompleto:inst10.Y
+Dado[7] => SubtratorCompleto:inst.Y
+Dado[8] => SubtratorCompleto:inst16.X
+Dado[9] => SubtratorCompleto:inst15.X
+Dado[10] => SubtratorCompleto:inst14.X
+Dado[11] => SubtratorCompleto:inst13.X
+Dado[12] => SubtratorCompleto:inst12.X
+Dado[13] => SubtratorCompleto:inst11.X
+Dado[14] => SubtratorCompleto:inst10.X
+Dado[15] => SubtratorCompleto:inst.X
+S1 <= SubtratorCompleto:inst15.S
+S2 <= SubtratorCompleto:inst14.S
+S3 <= SubtratorCompleto:inst13.S
+S4 <= SubtratorCompleto:inst12.S
+S5 <= SubtratorCompleto:inst11.S
+S6 <= SubtratorCompleto:inst10.S
+COut <= SubtratorCompleto:inst.Cout
+S7 <= SubtratorCompleto:inst.S
+
+
+|Subtrator8Bits|SubtratorCompleto:inst16
+S <= MeioSubtrator:inst8.S
+X => MeioSubtrator:inst7.X
+Y => MeioSubtrator:inst7.Y
+Cin => MeioSubtrator:inst8.Y
+Cout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Subtrator8Bits|SubtratorCompleto:inst16|MeioSubtrator:inst8
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst1.IN0
+X => inst.IN0
+Y => inst1.IN1
+Y => inst3.IN1
+C <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Subtrator8Bits|SubtratorCompleto:inst16|MeioSubtrator:inst7
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst1.IN0
+X => inst.IN0
+Y => inst1.IN1
+Y => inst3.IN1
+C <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Subtrator8Bits|SubtratorCompleto:inst15
+S <= MeioSubtrator:inst8.S
+X => MeioSubtrator:inst7.X
+Y => MeioSubtrator:inst7.Y
+Cin => MeioSubtrator:inst8.Y
+Cout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Subtrator8Bits|SubtratorCompleto:inst15|MeioSubtrator:inst8
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst1.IN0
+X => inst.IN0
+Y => inst1.IN1
+Y => inst3.IN1
+C <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Subtrator8Bits|SubtratorCompleto:inst15|MeioSubtrator:inst7
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst1.IN0
+X => inst.IN0
+Y => inst1.IN1
+Y => inst3.IN1
+C <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Subtrator8Bits|SubtratorCompleto:inst14
+S <= MeioSubtrator:inst8.S
+X => MeioSubtrator:inst7.X
+Y => MeioSubtrator:inst7.Y
+Cin => MeioSubtrator:inst8.Y
+Cout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Subtrator8Bits|SubtratorCompleto:inst14|MeioSubtrator:inst8
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst1.IN0
+X => inst.IN0
+Y => inst1.IN1
+Y => inst3.IN1
+C <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Subtrator8Bits|SubtratorCompleto:inst14|MeioSubtrator:inst7
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst1.IN0
+X => inst.IN0
+Y => inst1.IN1
+Y => inst3.IN1
+C <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Subtrator8Bits|SubtratorCompleto:inst13
+S <= MeioSubtrator:inst8.S
+X => MeioSubtrator:inst7.X
+Y => MeioSubtrator:inst7.Y
+Cin => MeioSubtrator:inst8.Y
+Cout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Subtrator8Bits|SubtratorCompleto:inst13|MeioSubtrator:inst8
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst1.IN0
+X => inst.IN0
+Y => inst1.IN1
+Y => inst3.IN1
+C <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Subtrator8Bits|SubtratorCompleto:inst13|MeioSubtrator:inst7
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst1.IN0
+X => inst.IN0
+Y => inst1.IN1
+Y => inst3.IN1
+C <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Subtrator8Bits|SubtratorCompleto:inst12
+S <= MeioSubtrator:inst8.S
+X => MeioSubtrator:inst7.X
+Y => MeioSubtrator:inst7.Y
+Cin => MeioSubtrator:inst8.Y
+Cout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Subtrator8Bits|SubtratorCompleto:inst12|MeioSubtrator:inst8
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst1.IN0
+X => inst.IN0
+Y => inst1.IN1
+Y => inst3.IN1
+C <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Subtrator8Bits|SubtratorCompleto:inst12|MeioSubtrator:inst7
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst1.IN0
+X => inst.IN0
+Y => inst1.IN1
+Y => inst3.IN1
+C <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Subtrator8Bits|SubtratorCompleto:inst11
+S <= MeioSubtrator:inst8.S
+X => MeioSubtrator:inst7.X
+Y => MeioSubtrator:inst7.Y
+Cin => MeioSubtrator:inst8.Y
+Cout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Subtrator8Bits|SubtratorCompleto:inst11|MeioSubtrator:inst8
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst1.IN0
+X => inst.IN0
+Y => inst1.IN1
+Y => inst3.IN1
+C <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Subtrator8Bits|SubtratorCompleto:inst11|MeioSubtrator:inst7
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst1.IN0
+X => inst.IN0
+Y => inst1.IN1
+Y => inst3.IN1
+C <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Subtrator8Bits|SubtratorCompleto:inst10
+S <= MeioSubtrator:inst8.S
+X => MeioSubtrator:inst7.X
+Y => MeioSubtrator:inst7.Y
+Cin => MeioSubtrator:inst8.Y
+Cout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Subtrator8Bits|SubtratorCompleto:inst10|MeioSubtrator:inst8
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst1.IN0
+X => inst.IN0
+Y => inst1.IN1
+Y => inst3.IN1
+C <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Subtrator8Bits|SubtratorCompleto:inst10|MeioSubtrator:inst7
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst1.IN0
+X => inst.IN0
+Y => inst1.IN1
+Y => inst3.IN1
+C <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Subtrator8Bits|SubtratorCompleto:inst
+S <= MeioSubtrator:inst8.S
+X => MeioSubtrator:inst7.X
+Y => MeioSubtrator:inst7.Y
+Cin => MeioSubtrator:inst8.Y
+Cout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Subtrator8Bits|SubtratorCompleto:inst|MeioSubtrator:inst8
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst1.IN0
+X => inst.IN0
+Y => inst1.IN1
+Y => inst3.IN1
+C <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Subtrator8Bits|SubtratorCompleto:inst|MeioSubtrator:inst7
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst1.IN0
+X => inst.IN0
+Y => inst1.IN1
+Y => inst3.IN1
+C <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+

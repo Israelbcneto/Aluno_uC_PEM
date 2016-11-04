@@ -1,0 +1,22 @@
+|RegistradorSaida
+S[0] <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+S[4] <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+S[5] <= <GND>
+S[6] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S[7] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+Dados[0] => inst10.DATAIN
+Dados[1] => inst9.DATAIN
+Dados[2] => inst8.DATAIN
+Dados[3] => inst7.DATAIN
+Dados[4] => inst6.DATAIN
+Dados[5] => ~NO_FANOUT~
+Dados[6] => inst3.DATAIN
+Dados[7] => inst2.DATAIN
+EA => inst1.IN0
+LO => inst.IN0
+CLK => inst4.IN1
+
+

@@ -1,0 +1,109 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "S0",
+					"strict" : false
+				},
+				{
+					"name" : "S1",
+					"strict" : false
+				},
+				{
+					"name" : "S2",
+					"strict" : false
+				},
+				{
+					"name" : "S3",
+					"strict" : false
+				},
+				{
+					"name" : "S4",
+					"strict" : false
+				},
+				{
+					"name" : "S5",
+					"strict" : false
+				},
+				{
+					"name" : "S6",
+					"strict" : false
+				},
+				{
+					"name" : "COut",
+					"strict" : false
+				},
+				{
+					"name" : "S7",
+					"strict" : false
+				},
+				{
+					"name" : "Dado[8]",
+					"strict" : false
+				},
+				{
+					"name" : "Dado[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Dado[9]",
+					"strict" : false
+				},
+				{
+					"name" : "Dado[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Dado[10]",
+					"strict" : false
+				},
+				{
+					"name" : "Dado[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Dado[11]",
+					"strict" : false
+				},
+				{
+					"name" : "Dado[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Dado[12]",
+					"strict" : false
+				},
+				{
+					"name" : "Dado[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Dado[13]",
+					"strict" : false
+				},
+				{
+					"name" : "Dado[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Dado[14]",
+					"strict" : false
+				},
+				{
+					"name" : "Dado[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Dado[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Dado[15]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

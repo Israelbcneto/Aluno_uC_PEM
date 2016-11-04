@@ -1,0 +1,21 @@
+|RegistradorB
+S[0] <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+S[4] <= inst16.DB_MAX_OUTPUT_PORT_TYPE
+S[5] <= inst17.DB_MAX_OUTPUT_PORT_TYPE
+S[6] <= inst18.DB_MAX_OUTPUT_PORT_TYPE
+S[7] <= inst19.DB_MAX_OUTPUT_PORT_TYPE
+LbN => inst13.IN0
+Clk => inst.IN1
+Dados[0] => inst11.DATAIN
+Dados[1] => inst12.DATAIN
+Dados[2] => inst14.DATAIN
+Dados[3] => inst15.DATAIN
+Dados[4] => inst16.DATAIN
+Dados[5] => inst17.DATAIN
+Dados[6] => inst18.DATAIN
+Dados[7] => inst19.DATAIN
+
+

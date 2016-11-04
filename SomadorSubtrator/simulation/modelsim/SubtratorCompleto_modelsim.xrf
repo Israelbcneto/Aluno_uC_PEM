@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/israe/Desktop/Israel_uC_PEM/SomadorSubtrator/Somador/MeioSubtrator.bdf
+source_file = 1, C:/Users/israe/Desktop/Israel_uC_PEM/SomadorSubtrator/Somador/MeioSomador.bdf
+source_file = 1, C:/Users/israe/Desktop/Israel_uC_PEM/SomadorSubtrator/Somador/subtratorcompleto.bdf
+design_name = SubtratorCompleto
+instance = comp, \S~output , S~output, SubtratorCompleto, 1
+instance = comp, \Cout~output , Cout~output, SubtratorCompleto, 1
+instance = comp, \Cin~input , Cin~input, SubtratorCompleto, 1
+instance = comp, \Y~input , Y~input, SubtratorCompleto, 1
+instance = comp, \X~input , X~input, SubtratorCompleto, 1
+instance = comp, \inst8|inst1 , inst8|inst1, SubtratorCompleto, 1

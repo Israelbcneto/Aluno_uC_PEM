@@ -1,0 +1,89 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "S[3]",
+					"strict" : false
+				},
+				{
+					"name" : "S[2]",
+					"strict" : false
+				},
+				{
+					"name" : "S[1]",
+					"strict" : false
+				},
+				{
+					"name" : "S[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SW[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SW[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SW[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SW[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Dados[7]",
+					"strict" : false
+				},
+				{
+					"name" : "CLR",
+					"strict" : false
+				},
+				{
+					"name" : "Dados[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Dados[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Dados[4]",
+					"strict" : false
+				},
+				{
+					"name" : "EIN",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				},
+				{
+					"name" : "LIN",
+					"strict" : false
+				},
+				{
+					"name" : "Dados[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Dados[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Dados[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Dados[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

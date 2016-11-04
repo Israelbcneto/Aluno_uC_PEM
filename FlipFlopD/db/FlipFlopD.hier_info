@@ -1,0 +1,9 @@
+|FlipFlopD
+Q <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+D => inst8.IN0
+D => inst15.IN1
+CLK => inst19.DATAIN
+CLK => inst5.IN1
+CLR => inst10.IN1
+
+

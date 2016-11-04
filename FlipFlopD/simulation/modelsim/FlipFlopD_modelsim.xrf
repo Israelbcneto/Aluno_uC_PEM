@@ -1,0 +1,8 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/israe/Desktop/projeto/flip-flopD/FlipFlopD.bdf
+source_file = 1, C:/Users/israe/Desktop/projeto/flip-flopD/db/FlipFlopD.cbx.xml
+design_name = FlipFlopD
+instance = comp, \Q~output , Q~output, FlipFlopD, 1
+instance = comp, \D~input , D~input, FlipFlopD, 1
+instance = comp, \CLK~input , CLK~input, FlipFlopD, 1
+instance = comp, \CLR~input , CLR~input, FlipFlopD, 1

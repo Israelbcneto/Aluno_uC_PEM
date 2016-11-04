@@ -1,0 +1,41 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Saida_Cp[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_Cp[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_Cp[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_Cp[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Ep",
+					"strict" : false
+				},
+				{
+					"name" : "CLRN",
+					"strict" : false
+				},
+				{
+					"name" : "Cp",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

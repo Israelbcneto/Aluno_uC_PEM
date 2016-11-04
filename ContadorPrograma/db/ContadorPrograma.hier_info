@@ -1,0 +1,20 @@
+|ContadorPrograma
+Saida_Cp[0] <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+Saida_Cp[1] <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+Saida_Cp[2] <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+Saida_Cp[3] <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+CLRN => inst1.ACLR
+CLRN => inst2.ACLR
+CLRN => inst3.ACLR
+Cp => inst.IN0
+Cp => inst1.IN0
+Cp => inst2.IN0
+Cp => inst3.IN0
+CLK => inst5.IN0
+Ep => inst9.OE
+Ep => inst10.OE
+Ep => inst11.OE
+Ep => inst12.OE
+
+

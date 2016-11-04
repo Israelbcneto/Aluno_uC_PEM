@@ -1,0 +1,26 @@
+|SubtratorCompleto
+S <= MeioSubtrator:inst8.S
+X => MeioSubtrator:inst7.X
+Y => MeioSubtrator:inst7.Y
+Cin => MeioSubtrator:inst8.Y
+Cout <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SubtratorCompleto|MeioSubtrator:inst8
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst1.IN0
+X => inst.IN0
+Y => inst1.IN1
+Y => inst3.IN1
+C <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SubtratorCompleto|MeioSubtrator:inst7
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst1.IN0
+X => inst.IN0
+Y => inst1.IN1
+Y => inst3.IN1
+C <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+

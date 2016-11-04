@@ -1,0 +1,37 @@
+|Acumulador
+S[0] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+S[4] <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+S[5] <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+S[6] <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+S[7] <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+LaN => inst2.IN0
+CLK => inst.IN1
+DADOS[0] => inst3.DATAIN
+DADOS[1] => inst4.DATAIN
+DADOS[2] => inst5.DATAIN
+DADOS[3] => inst6.DATAIN
+DADOS[4] => inst7.DATAIN
+DADOS[5] => inst8.DATAIN
+DADOS[6] => inst9.DATAIN
+DADOS[7] => inst10.DATAIN
+SW[0] <= inst14.OUT
+SW[1] <= inst15.OUT
+SW[2] <= inst16.OUT
+SW[3] <= inst17.OUT
+SW[4] <= inst18.OUT
+SW[5] <= inst19.OUT
+SW[6] <= inst20.OUT
+SW[7] <= inst21.OUT
+Ea => inst14.OE
+Ea => inst15.OE
+Ea => inst16.OE
+Ea => inst17.OE
+Ea => inst18.OE
+Ea => inst19.OE
+Ea => inst20.OE
+Ea => inst21.OE
+
+

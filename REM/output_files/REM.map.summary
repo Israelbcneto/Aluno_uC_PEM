@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Nov 04 02:34:43 2016
+Quartus Prime Version : 16.0.0 Build 211 04/27/2016 SJ Lite Edition
+Revision Name : REM
+Top-level Entity Name : REM
+Family : Cyclone IV E
+Total logic elements : 5
+    Total combinational functions : 1
+    Dedicated logic registers : 4
+Total registers : 4
+Total pins : 14
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

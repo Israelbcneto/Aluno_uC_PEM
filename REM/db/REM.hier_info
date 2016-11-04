@@ -1,0 +1,17 @@
+|REM
+S[0] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst5.IN0
+LMN => inst4.IN0
+Dados[0] => inst3.DATAIN
+Dados[1] => inst2.DATAIN
+Dados[2] => inst1.DATAIN
+Dados[3] => inst.DATAIN
+Dados[4] => ~NO_FANOUT~
+Dados[5] => ~NO_FANOUT~
+Dados[6] => ~NO_FANOUT~
+Dados[7] => ~NO_FANOUT~
+
+
