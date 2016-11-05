@@ -1,0 +1,157 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "CpS",
+					"strict" : false
+				},
+				{
+					"name" : "EpS",
+					"strict" : false
+				},
+				{
+					"name" : "LmNS",
+					"strict" : false
+				},
+				{
+					"name" : "CeNS",
+					"strict" : false
+				},
+				{
+					"name" : "LiNS",
+					"strict" : false
+				},
+				{
+					"name" : "EiNS",
+					"strict" : false
+				},
+				{
+					"name" : "LaNS",
+					"strict" : false
+				},
+				{
+					"name" : "EaS",
+					"strict" : false
+				},
+				{
+					"name" : "SuS",
+					"strict" : false
+				},
+				{
+					"name" : "EuS",
+					"strict" : false
+				},
+				{
+					"name" : "LbNS",
+					"strict" : false
+				},
+				{
+					"name" : "LoNS",
+					"strict" : false
+				},
+				{
+					"name" : "Cp",
+					"strict" : false
+				},
+				{
+					"name" : "Cp2",
+					"strict" : false
+				},
+				{
+					"name" : "C",
+					"strict" : false
+				},
+				{
+					"name" : "Ep",
+					"strict" : false
+				},
+				{
+					"name" : "Ep2",
+					"strict" : false
+				},
+				{
+					"name" : "LmN",
+					"strict" : false
+				},
+				{
+					"name" : "LmN2",
+					"strict" : false
+				},
+				{
+					"name" : "CeN",
+					"strict" : false
+				},
+				{
+					"name" : "CeN2",
+					"strict" : false
+				},
+				{
+					"name" : "LiN",
+					"strict" : false
+				},
+				{
+					"name" : "LiN2",
+					"strict" : false
+				},
+				{
+					"name" : "EiN",
+					"strict" : false
+				},
+				{
+					"name" : "EiN2",
+					"strict" : false
+				},
+				{
+					"name" : "LaN",
+					"strict" : false
+				},
+				{
+					"name" : "LaN2",
+					"strict" : false
+				},
+				{
+					"name" : "Ea",
+					"strict" : false
+				},
+				{
+					"name" : "Ea2",
+					"strict" : false
+				},
+				{
+					"name" : "Su",
+					"strict" : false
+				},
+				{
+					"name" : "Su2",
+					"strict" : false
+				},
+				{
+					"name" : "Eu",
+					"strict" : false
+				},
+				{
+					"name" : "Eu2",
+					"strict" : false
+				},
+				{
+					"name" : "LbN",
+					"strict" : false
+				},
+				{
+					"name" : "LbN2",
+					"strict" : false
+				},
+				{
+					"name" : "LoN",
+					"strict" : false
+				},
+				{
+					"name" : "LoN2",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

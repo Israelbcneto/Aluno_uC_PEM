@@ -1,0 +1,41 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "CP",
+					"strict" : false
+				},
+				{
+					"name" : "EP",
+					"strict" : false
+				},
+				{
+					"name" : "LMN",
+					"strict" : false
+				},
+				{
+					"name" : "CEN",
+					"strict" : false
+				},
+				{
+					"name" : "LIN",
+					"strict" : false
+				},
+				{
+					"name" : "T2",
+					"strict" : false
+				},
+				{
+					"name" : "T1",
+					"strict" : false
+				},
+				{
+					"name" : "T3",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

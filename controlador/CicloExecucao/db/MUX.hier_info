@@ -1,0 +1,14 @@
+|MUX
+Cout <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+C1 => inst15.IN0
+T4 => inst15.IN1
+C3 => inst17.IN0
+T6AS => inst17.IN1
+C5 => inst20.IN0
+T6LDA => inst20.IN1
+C4 => inst18.IN0
+T5LDA => inst18.IN1
+C2 => inst16.IN0
+T5AS => inst16.IN1
+
+

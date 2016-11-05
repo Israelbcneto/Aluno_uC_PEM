@@ -1,0 +1,324 @@
+// Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, the Altera Quartus Prime License Agreement,
+// the Altera MegaCore Function License Agreement, or other 
+// applicable license agreement, including, without limitation, 
+// that your use is for the sole purpose of programming logic 
+// devices manufactured by Altera and sold by Altera or its 
+// authorized distributors.  Please refer to the applicable 
+// agreement for further details.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus Prime"
+// VERSION "Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition"
+
+// DATE "11/04/2016 21:09:30"
+
+// 
+// Device: Altera EP4CE6E22A7 Package TQFP144
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module CicloBusca (
+	CP,
+	T2,
+	EP,
+	T1,
+	LMN,
+	CEN,
+	T3,
+	LIN,
+	EIN,
+	LAN,
+	EA,
+	SU,
+	EU,
+	LBN,
+	LON);
+output 	CP;
+input 	T2;
+output 	EP;
+input 	T1;
+output 	LMN;
+output 	CEN;
+input 	T3;
+output 	LIN;
+output 	EIN;
+output 	LAN;
+output 	EA;
+output 	SU;
+output 	EU;
+output 	LBN;
+output 	LON;
+
+// Design Ports Information
+// CP	=>  Location: PIN_127,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// EP	=>  Location: PIN_68,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// LMN	=>  Location: PIN_69,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// CEN	=>  Location: PIN_53,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// LIN	=>  Location: PIN_55,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// EIN	=>  Location: PIN_142,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// LAN	=>  Location: PIN_33,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// EA	=>  Location: PIN_39,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// SU	=>  Location: PIN_138,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// EU	=>  Location: PIN_115,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// LBN	=>  Location: PIN_86,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// LON	=>  Location: PIN_52,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// T2	=>  Location: PIN_126,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// T1	=>  Location: PIN_67,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// T3	=>  Location: PIN_54,	 I/O Standard: 2.5 V,	 Current Strength: Default
+
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+// synopsys translate_off
+initial $sdf_annotate("CicloBusca_7_1200mv_-40c_v_slow.sdo");
+// synopsys translate_on
+
+wire \CP~output_o ;
+wire \EP~output_o ;
+wire \LMN~output_o ;
+wire \CEN~output_o ;
+wire \LIN~output_o ;
+wire \EIN~output_o ;
+wire \LAN~output_o ;
+wire \EA~output_o ;
+wire \SU~output_o ;
+wire \EU~output_o ;
+wire \LBN~output_o ;
+wire \LON~output_o ;
+wire \T2~input_o ;
+wire \T1~input_o ;
+wire \T3~input_o ;
+
+
+// Location: IOOBUF_X16_Y24_N9
+cycloneive_io_obuf \CP~output (
+	.i(\T2~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\CP~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \CP~output .bus_hold = "false";
+defparam \CP~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X30_Y0_N9
+cycloneive_io_obuf \EP~output (
+	.i(\T1~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\EP~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \EP~output .bus_hold = "false";
+defparam \EP~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X30_Y0_N2
+cycloneive_io_obuf \LMN~output (
+	.i(!\T1~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\LMN~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \LMN~output .bus_hold = "false";
+defparam \LMN~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X16_Y0_N2
+cycloneive_io_obuf \CEN~output (
+	.i(!\T3~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\CEN~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \CEN~output .bus_hold = "false";
+defparam \CEN~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X18_Y0_N16
+cycloneive_io_obuf \LIN~output (
+	.i(!\T3~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\LIN~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \LIN~output .bus_hold = "false";
+defparam \LIN~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X3_Y24_N23
+cycloneive_io_obuf \EIN~output (
+	.i(vcc),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\EIN~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \EIN~output .bus_hold = "false";
+defparam \EIN~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X0_Y6_N23
+cycloneive_io_obuf \LAN~output (
+	.i(vcc),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\LAN~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \LAN~output .bus_hold = "false";
+defparam \LAN~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X1_Y0_N16
+cycloneive_io_obuf \EA~output (
+	.i(gnd),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\EA~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \EA~output .bus_hold = "false";
+defparam \EA~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X7_Y24_N9
+cycloneive_io_obuf \SU~output (
+	.i(gnd),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\SU~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \SU~output .bus_hold = "false";
+defparam \SU~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X28_Y24_N23
+cycloneive_io_obuf \EU~output (
+	.i(gnd),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\EU~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \EU~output .bus_hold = "false";
+defparam \EU~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X34_Y9_N2
+cycloneive_io_obuf \LBN~output (
+	.i(vcc),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\LBN~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \LBN~output .bus_hold = "false";
+defparam \LBN~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X16_Y0_N9
+cycloneive_io_obuf \LON~output (
+	.i(vcc),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\LON~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \LON~output .bus_hold = "false";
+defparam \LON~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOIBUF_X16_Y24_N1
+cycloneive_io_ibuf \T2~input (
+	.i(T2),
+	.ibar(gnd),
+	.o(\T2~input_o ));
+// synopsys translate_off
+defparam \T2~input .bus_hold = "false";
+defparam \T2~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X30_Y0_N22
+cycloneive_io_ibuf \T1~input (
+	.i(T1),
+	.ibar(gnd),
+	.o(\T1~input_o ));
+// synopsys translate_off
+defparam \T1~input .bus_hold = "false";
+defparam \T1~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X18_Y0_N22
+cycloneive_io_ibuf \T3~input (
+	.i(T3),
+	.ibar(gnd),
+	.o(\T3~input_o ));
+// synopsys translate_off
+defparam \T3~input .bus_hold = "false";
+defparam \T3~input .simulate_z_as = "z";
+// synopsys translate_on
+
+assign CP = \CP~output_o ;
+
+assign EP = \EP~output_o ;
+
+assign LMN = \LMN~output_o ;
+
+assign CEN = \CEN~output_o ;
+
+assign LIN = \LIN~output_o ;
+
+assign EIN = \EIN~output_o ;
+
+assign LAN = \LAN~output_o ;
+
+assign EA = \EA~output_o ;
+
+assign SU = \SU~output_o ;
+
+assign EU = \EU~output_o ;
+
+assign LBN = \LBN~output_o ;
+
+assign LON = \LON~output_o ;
+
+endmodule

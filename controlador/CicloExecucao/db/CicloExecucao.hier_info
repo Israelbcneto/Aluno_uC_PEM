@@ -1,0 +1,134 @@
+|CicloExecucao
+Cp <= <GND>
+Ep <= <GND>
+LmN <= MUX:inst.Cout
+T4 => MUX:inst.T4
+T4 => inst15.IN0
+T4 => MUX:inst2.T4
+T4 => MUX:inst3.T4
+T4 => MUX:inst4.T4
+T4 => MUX:inst6.T4
+T4 => MUX:inst8.T4
+T4 => MUX:inst9.T4
+T5 => inst10.IN0
+T5 => inst13.IN0
+T5 => inst16.IN1
+SUB => inst12.IN0
+SUB => MUX:inst6.C3
+ADD => inst12.IN1
+T6 => inst11.IN0
+T6 => inst16.IN0
+T6 => inst14.IN1
+LDA => inst13.IN1
+LDA => inst14.IN0
+OUT => inst17.IN1
+OUT => inst15.IN1
+CeN <= MUX:inst2.Cout
+LiN <= <VCC>
+EiN <= MUX:inst3.Cout
+LaN <= MUX:inst4.Cout
+Ea <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+Su <= MUX:inst6.Cout
+Eu <= MUX:inst8.Cout
+LbN <= MUX:inst9.Cout
+LoN <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CicloExecucao|MUX:inst
+Cout <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+C1 => inst15.IN0
+T4 => inst15.IN1
+C3 => inst17.IN0
+T6AS => inst17.IN1
+C5 => inst20.IN0
+T6LDA => inst20.IN1
+C4 => inst18.IN0
+T5LDA => inst18.IN1
+C2 => inst16.IN0
+T5AS => inst16.IN1
+
+
+|CicloExecucao|MUX:inst2
+Cout <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+C1 => inst15.IN0
+T4 => inst15.IN1
+C3 => inst17.IN0
+T6AS => inst17.IN1
+C5 => inst20.IN0
+T6LDA => inst20.IN1
+C4 => inst18.IN0
+T5LDA => inst18.IN1
+C2 => inst16.IN0
+T5AS => inst16.IN1
+
+
+|CicloExecucao|MUX:inst3
+Cout <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+C1 => inst15.IN0
+T4 => inst15.IN1
+C3 => inst17.IN0
+T6AS => inst17.IN1
+C5 => inst20.IN0
+T6LDA => inst20.IN1
+C4 => inst18.IN0
+T5LDA => inst18.IN1
+C2 => inst16.IN0
+T5AS => inst16.IN1
+
+
+|CicloExecucao|MUX:inst4
+Cout <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+C1 => inst15.IN0
+T4 => inst15.IN1
+C3 => inst17.IN0
+T6AS => inst17.IN1
+C5 => inst20.IN0
+T6LDA => inst20.IN1
+C4 => inst18.IN0
+T5LDA => inst18.IN1
+C2 => inst16.IN0
+T5AS => inst16.IN1
+
+
+|CicloExecucao|MUX:inst6
+Cout <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+C1 => inst15.IN0
+T4 => inst15.IN1
+C3 => inst17.IN0
+T6AS => inst17.IN1
+C5 => inst20.IN0
+T6LDA => inst20.IN1
+C4 => inst18.IN0
+T5LDA => inst18.IN1
+C2 => inst16.IN0
+T5AS => inst16.IN1
+
+
+|CicloExecucao|MUX:inst8
+Cout <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+C1 => inst15.IN0
+T4 => inst15.IN1
+C3 => inst17.IN0
+T6AS => inst17.IN1
+C5 => inst20.IN0
+T6LDA => inst20.IN1
+C4 => inst18.IN0
+T5LDA => inst18.IN1
+C2 => inst16.IN0
+T5AS => inst16.IN1
+
+
+|CicloExecucao|MUX:inst9
+Cout <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+C1 => inst15.IN0
+T4 => inst15.IN1
+C3 => inst17.IN0
+T6AS => inst17.IN1
+C5 => inst20.IN0
+T6LDA => inst20.IN1
+C4 => inst18.IN0
+T5LDA => inst18.IN1
+C2 => inst16.IN0
+T5AS => inst16.IN1
+
+

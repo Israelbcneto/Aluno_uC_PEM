@@ -1,0 +1,73 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "LmN",
+					"strict" : false
+				},
+				{
+					"name" : "CeN",
+					"strict" : false
+				},
+				{
+					"name" : "EiN",
+					"strict" : false
+				},
+				{
+					"name" : "LaN",
+					"strict" : false
+				},
+				{
+					"name" : "Ea",
+					"strict" : false
+				},
+				{
+					"name" : "Su",
+					"strict" : false
+				},
+				{
+					"name" : "Eu",
+					"strict" : false
+				},
+				{
+					"name" : "LbN",
+					"strict" : false
+				},
+				{
+					"name" : "LoN",
+					"strict" : false
+				},
+				{
+					"name" : "T5",
+					"strict" : false
+				},
+				{
+					"name" : "OUT",
+					"strict" : false
+				},
+				{
+					"name" : "T6",
+					"strict" : false
+				},
+				{
+					"name" : "LDA",
+					"strict" : false
+				},
+				{
+					"name" : "T4",
+					"strict" : false
+				},
+				{
+					"name" : "SUB",
+					"strict" : false
+				},
+				{
+					"name" : "ADD",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

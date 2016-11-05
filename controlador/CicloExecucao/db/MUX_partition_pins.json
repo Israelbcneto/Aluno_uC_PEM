@@ -1,0 +1,53 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Cout",
+					"strict" : false
+				},
+				{
+					"name" : "C1",
+					"strict" : false
+				},
+				{
+					"name" : "C3",
+					"strict" : false
+				},
+				{
+					"name" : "T6AS",
+					"strict" : false
+				},
+				{
+					"name" : "T4",
+					"strict" : false
+				},
+				{
+					"name" : "C5",
+					"strict" : false
+				},
+				{
+					"name" : "C4",
+					"strict" : false
+				},
+				{
+					"name" : "T5LDA",
+					"strict" : false
+				},
+				{
+					"name" : "T6LDA",
+					"strict" : false
+				},
+				{
+					"name" : "C2",
+					"strict" : false
+				},
+				{
+					"name" : "T5AS",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

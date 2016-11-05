@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/israe/OneDrive/Documentos/GitHub/Israel_uC_PEM/controlador/ContadorAnel/ContadorAnel.bdf
+source_file = 1, C:/Users/israe/OneDrive/Documentos/GitHub/Israel_uC_PEM/controlador/ContadorAnel/db/ContadorAnel.cbx.xml
+design_name = ContadorAnel
+instance = comp, \T1~output , T1~output, ContadorAnel, 1
+instance = comp, \T2~output , T2~output, ContadorAnel, 1
+instance = comp, \T3~output , T3~output, ContadorAnel, 1
+instance = comp, \T4~output , T4~output, ContadorAnel, 1
+instance = comp, \T5~output , T5~output, ContadorAnel, 1
+instance = comp, \T6~output , T6~output, ContadorAnel, 1
+instance = comp, \ClrN~input , ClrN~input, ContadorAnel, 1
+instance = comp, \ClkN~input , ClkN~input, ContadorAnel, 1

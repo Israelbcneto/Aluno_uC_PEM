@@ -1,0 +1,177 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, the Altera Quartus Prime License Agreement,
+# the Altera MegaCore Function License Agreement, or other 
+# applicable license agreement, including, without limitation, 
+# that your use is for the sole purpose of programming logic 
+# devices manufactured by Altera and sold by Altera or its 
+# authorized distributors.  Please refer to the applicable 
+# agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
+# Date created = 23:36:14  November 04, 2016
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		Microprocessador_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE6E22A7
+set_global_assignment -name TOP_LEVEL_ENTITY Microprocessador
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 16.0.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "23:36:14  NOVEMBER 04, 2016"
+set_global_assignment -name LAST_QUARTUS_VERSION 16.0.0
+set_global_assignment -name SOURCE_FILE SomadorSubtrator/SubtratorCompleto.qws
+set_global_assignment -name SOURCE_FILE SomadorSubtrator/SubtratorCompleto.qsf
+set_global_assignment -name SOURCE_FILE SomadorSubtrator/SubtratorCompleto.qpf
+set_global_assignment -name BSF_FILE SomadorSubtrator/SubtratorCompleto.bsf
+set_global_assignment -name BDF_FILE SomadorSubtrator/SubtratorCompleto.bdf
+set_global_assignment -name SOURCE_FILE SomadorSubtrator/Subtrator8Bits.qws
+set_global_assignment -name SOURCE_FILE SomadorSubtrator/Subtrator8Bits.qsf
+set_global_assignment -name SOURCE_FILE SomadorSubtrator/Subtrator8Bits.qpf
+set_global_assignment -name BSF_FILE SomadorSubtrator/Subtrator8Bits.bsf
+set_global_assignment -name BDF_FILE SomadorSubtrator/Subtrator8Bits.bdf
+set_global_assignment -name SOURCE_FILE SomadorSubtrator/SomadorSubtrator.qws
+set_global_assignment -name SOURCE_FILE SomadorSubtrator/SomadorSubtrator.qsf
+set_global_assignment -name SOURCE_FILE SomadorSubtrator/SomadorSubtrator.qpf
+set_global_assignment -name BSF_FILE SomadorSubtrator/SomadorSubtrator.bsf
+set_global_assignment -name BDF_FILE SomadorSubtrator/SomadorSubtrator.bdf
+set_global_assignment -name SOURCE_FILE SomadorSubtrator/SomadorCompleto.qws
+set_global_assignment -name SOURCE_FILE SomadorSubtrator/SomadorCompleto.qsf
+set_global_assignment -name SOURCE_FILE SomadorSubtrator/SomadorCompleto.qpf
+set_global_assignment -name BSF_FILE SomadorSubtrator/SomadorCompleto.bsf
+set_global_assignment -name BDF_FILE SomadorSubtrator/SomadorCompleto.bdf
+set_global_assignment -name SOURCE_FILE SomadorSubtrator/Somador8Bits.qws
+set_global_assignment -name SOURCE_FILE SomadorSubtrator/Somador8Bits.qsf
+set_global_assignment -name SOURCE_FILE SomadorSubtrator/Somador8Bits.qpf
+set_global_assignment -name BSF_FILE SomadorSubtrator/Somador8Bits.bsf
+set_global_assignment -name BDF_FILE SomadorSubtrator/Somador8Bits.bdf
+set_global_assignment -name SOURCE_FILE SomadorSubtrator/MeioSubtrator.qws
+set_global_assignment -name SOURCE_FILE SomadorSubtrator/MeioSubtrator.qsf
+set_global_assignment -name SOURCE_FILE SomadorSubtrator/MeioSubtrator.qpf
+set_global_assignment -name BSF_FILE SomadorSubtrator/MeioSubtrator.bsf
+set_global_assignment -name BDF_FILE SomadorSubtrator/MeioSubtrator.bdf
+set_global_assignment -name SOURCE_FILE SomadorSubtrator/MeioSomador.qws
+set_global_assignment -name SOURCE_FILE SomadorSubtrator/MeioSomador.qsf
+set_global_assignment -name SOURCE_FILE SomadorSubtrator/MeioSomador.qpf
+set_global_assignment -name BSF_FILE SomadorSubtrator/MeioSomador.bsf
+set_global_assignment -name BDF_FILE SomadorSubtrator/MeioSomador.bdf
+set_global_assignment -name HEX_FILE SomadorSubtrator/Dados.hex
+set_global_assignment -name SOURCE_FILE ROM/ROM.qws
+set_global_assignment -name SOURCE_FILE ROM/ROM.qsf
+set_global_assignment -name SOURCE_FILE ROM/ROM.qpf
+set_global_assignment -name BSF_FILE ROM/Rom.bsf
+set_global_assignment -name BDF_FILE ROM/Rom.bdf
+set_global_assignment -name VERILOG_FILE ROM/MemoriaROM_syn.v
+set_global_assignment -name VERILOG_FILE ROM/MemoriaROM_inst.v
+set_global_assignment -name VERILOG_FILE ROM/MemoriaROM_bb.v
+set_global_assignment -name VERILOG_FILE ROM/MemoriaROM.v
+set_global_assignment -name QIP_FILE ROM/MemoriaROM.qip
+set_global_assignment -name BSF_FILE ROM/MemoriaROM.bsf
+set_global_assignment -name HEX_FILE ROM/Dados.hex
+set_global_assignment -name SOURCE_FILE REM/REM.qws
+set_global_assignment -name SOURCE_FILE REM/REM.qsf
+set_global_assignment -name SOURCE_FILE REM/REM.qpf
+set_global_assignment -name BSF_FILE REM/REM.bsf
+set_global_assignment -name BDF_FILE REM/REM.bdf
+set_global_assignment -name SOURCE_FILE RegistradorSaida/RegistradorSaida.qws
+set_global_assignment -name SOURCE_FILE RegistradorSaida/RegistradorSaida.qsf
+set_global_assignment -name SOURCE_FILE RegistradorSaida/RegistradorSaida.qpf
+set_global_assignment -name BSF_FILE RegistradorSaida/RegistradorSaida.bsf
+set_global_assignment -name BDF_FILE RegistradorSaida/RegistradorSaida.bdf
+set_global_assignment -name SOURCE_FILE RegistradorInstrucoes/RegistradorInstrucoes.qws
+set_global_assignment -name SOURCE_FILE RegistradorInstrucoes/RegistradorInstrucoes.qsf
+set_global_assignment -name SOURCE_FILE RegistradorInstrucoes/RegistradorInstrucoes.qpf
+set_global_assignment -name BSF_FILE RegistradorInstrucoes/RegistradorInstrucoes.bsf
+set_global_assignment -name BDF_FILE RegistradorInstrucoes/RegistradorInstrucoes.bdf
+set_global_assignment -name SOURCE_FILE RegistradorB/RegistradorB.qws
+set_global_assignment -name SOURCE_FILE RegistradorB/RegistradorB.qsf
+set_global_assignment -name SOURCE_FILE RegistradorB/RegistradorB.qpf
+set_global_assignment -name BSF_FILE RegistradorB/RegistradorB.bsf
+set_global_assignment -name BDF_FILE RegistradorB/RegistradorB.bdf
+set_global_assignment -name SOURCE_FILE controlador/Controlador.qws
+set_global_assignment -name SOURCE_FILE controlador/Controlador.qsf
+set_global_assignment -name SOURCE_FILE controlador/Controlador.qpf
+set_global_assignment -name BSF_FILE controlador/Controlador.bsf
+set_global_assignment -name BDF_FILE controlador/Controlador.bdf
+set_global_assignment -name SOURCE_FILE controlador/decididor/Decididor.qws
+set_global_assignment -name SOURCE_FILE controlador/decididor/Decididor.qsf
+set_global_assignment -name SOURCE_FILE controlador/decididor/Decididor.qpf
+set_global_assignment -name BSF_FILE controlador/decididor/Decididor.bsf
+set_global_assignment -name BDF_FILE controlador/decididor/Decididor.bdf
+set_global_assignment -name SOURCE_FILE controlador/ContadorAnel/ContadorAnel.qws
+set_global_assignment -name SOURCE_FILE controlador/ContadorAnel/ContadorAnel.qsf
+set_global_assignment -name SOURCE_FILE controlador/ContadorAnel/ContadorAnel.qpf
+set_global_assignment -name BSF_FILE controlador/ContadorAnel/ContadorAnel.bsf
+set_global_assignment -name BDF_FILE controlador/ContadorAnel/ContadorAnel.bdf
+set_global_assignment -name SOURCE_FILE controlador/CicloExecucao/MUX.qws
+set_global_assignment -name SOURCE_FILE controlador/CicloExecucao/MUX.qsf
+set_global_assignment -name SOURCE_FILE controlador/CicloExecucao/MUX.qpf
+set_global_assignment -name BSF_FILE controlador/CicloExecucao/MUX.bsf
+set_global_assignment -name BDF_FILE controlador/CicloExecucao/MUX.bdf
+set_global_assignment -name SOURCE_FILE controlador/CicloExecucao/CicloExecucao.qws
+set_global_assignment -name SOURCE_FILE controlador/CicloExecucao/CicloExecucao.qsf
+set_global_assignment -name SOURCE_FILE controlador/CicloExecucao/CicloExecucao.qpf
+set_global_assignment -name BSF_FILE controlador/CicloExecucao/CicloExecucao.bsf
+set_global_assignment -name BDF_FILE controlador/CicloExecucao/CicloExecucao.bdf
+set_global_assignment -name SOURCE_FILE controlador/CicloBusca/CicloBusca.qws
+set_global_assignment -name SOURCE_FILE controlador/CicloBusca/CicloBusca.qsf
+set_global_assignment -name SOURCE_FILE controlador/CicloBusca/CicloBusca.qpf
+set_global_assignment -name BSF_FILE controlador/CicloBusca/CicloBusca.bsf
+set_global_assignment -name BDF_FILE controlador/CicloBusca/CicloBusca.bdf
+set_global_assignment -name SOURCE_FILE FlipFlopJK/FlipFlopJK.qws
+set_global_assignment -name SOURCE_FILE FlipFlopJK/FlipFlopJK.qsf
+set_global_assignment -name SOURCE_FILE FlipFlopJK/FlipFlopJK.qpf
+set_global_assignment -name BSF_FILE FlipFlopJK/FlipFlopJK.bsf
+set_global_assignment -name BDF_FILE FlipFlopJK/FlipFlopJK.bdf
+set_global_assignment -name SOURCE_FILE FlipFlopD/FlipFlopD.qws
+set_global_assignment -name SOURCE_FILE FlipFlopD/FlipFlopD.qsf
+set_global_assignment -name SOURCE_FILE FlipFlopD/FlipFlopD.qpf
+set_global_assignment -name BSF_FILE FlipFlopD/FlipFlopD.bsf
+set_global_assignment -name BDF_FILE FlipFlopD/FlipFlopD.bdf
+set_global_assignment -name SOURCE_FILE ContadorPrograma/ContadorPrograma.qws
+set_global_assignment -name SOURCE_FILE ContadorPrograma/ContadorPrograma.qsf
+set_global_assignment -name SOURCE_FILE ContadorPrograma/ContadorPrograma.qpf
+set_global_assignment -name BSF_FILE ContadorPrograma/ContadorPrograma.bsf
+set_global_assignment -name BDF_FILE ContadorPrograma/ContadorPrograma.bdf
+set_global_assignment -name SOURCE_FILE Acumulador/Acumulador.qws
+set_global_assignment -name SOURCE_FILE Acumulador/Acumulador.qsf
+set_global_assignment -name SOURCE_FILE Acumulador/Acumulador.qpf
+set_global_assignment -name BSF_FILE Acumulador/Acumulador.bsf
+set_global_assignment -name BDF_FILE Acumulador/Acumulador.bdf
+set_global_assignment -name SOURCE_FILE "C:\\Users\\israe\\OneDrive\\Documentos\\GitHub\\Israel_uC_PEM\\Acumulador"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP "-40"
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 125
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name BDF_FILE Microprocessador.bdf
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
